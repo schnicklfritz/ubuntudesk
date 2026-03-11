@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dockerignore
+.github
+*.md
+*.log
+*.env
+.env*
+build/
+dist/
