@@ -15,8 +15,7 @@ RUN apt-get update && \
         android-tools-adb \
         curl \
         iproute2 \
-        net-tools \
-        nvidia-utils-550 && \
+        net-tools && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
